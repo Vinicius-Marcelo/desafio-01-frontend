@@ -1,0 +1,222 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1.5px;
+}
+/* Fontes */
+.Ibarra-Real-Nova{
+    font-family: 'Ibarra Real Nova', serif;
+    color: #33323d;
+}
+.Public-Sans, .btncontato{
+    font-family: 'Public Sans', sans-serif;
+    color: #33323d;
+}
+/* Botão */
+.btncontato, .btnenviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btncontato{
+    color: #33323d;
+    background: hsl(0, 0, 98%);
+    border: 1px solid #33323d;
+}
+.btncontato:hover{
+    color: #fafafa;
+    background: rgb(51, 50, 61);
+}
+.btnenviar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 48px;
+    color: #fff;
+    background: #20394c;
+    border: none;
+}
+.btnenviar:hover{
+    background: rgb(95, 180, 162);
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+/* Body */
+body{
+    min-height: 100vh;
+}
+/* Card */
+.card{
+    min-height: 100vh;
+    width: 1500px;
+    margin: auto;
+    padding-top: 25px;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 54px;
+    padding-top: 20px;
+}
+ul{
+    list-style: none;
+    word-spacing: 42px;
+}
+li{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #33323d;
+}
+.selecionado{
+    color: #5fb4a2;
+}
+/* Footer */
+footer{
+    background: #33323d;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 26px 250px;
+}
+.paginas{
+    display: flex;
+    align-items: center;
+    
+}
+footer ul{
+    padding-left: 48px;
+}
+footer li{
+    color: #fff;
+}
+.social{
+    word-spacing: 15px;
+}
+/* Contato */
+.contato{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 145px;
+}
+.contato h2{
+    font-size: 60px;
+    line-height: 60px;
+    padding: 10px 228px 28px 0;
+    margin-right: 500px;
+}
+.contato button{
+    width: 188px;
+    height: 68px;
+    font-size: 14px;
+}
+/* Protifolios */
+.print{
+    width: 100%;
+    padding-bottom: 115px;
+}
+.explicacao{
+    display: flex;
+}
+.explicacao main{
+    height: 550px;
+    margin-right: 125px;
+    border-top: 1px solid rgba(51, 50, 62, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 62, 0.15);
+}
+.explicacao main h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    padding: 48px 0 29px 0;
+}
+.explicacao main span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.explicacao p{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #5fb4a2;
+    padding-bottom: 16px;
+}
+.explicacao button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 195px;
+    height: 68px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 0  0;
+}
+.explicacao aside{
+    width: 150%;
+}
+.explicacao h3{
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 45px;
+    padding-bottom: 28px;
+}
+.explicacao .previews{
+    padding-top: 40px;
+}
+.explicacao aside span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.explicacao aside img{
+    width: 100%;
+    padding-bottom: 32px;
+}
+.navegacao{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0;
+    margin: 32px 0 115px 0;
+    border-top: 1px solid rgba(51, 50, 62, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 62, 0.15);
+}
+.navegacao a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.navegacao button{
+    all: unset;
+    color: #33323d;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+}
+.navegacao button p{
+    color: rgba(51, 50, 62, 0.5);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.navegacao .left button{
+    padding-left: 32px;
+}
+.navegacao .right button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 32px;
+}

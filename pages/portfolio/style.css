@@ -1,0 +1,41 @@
+section{
+    display: flex;
+    align-items: center;
+    padding-bottom: 150px;
+}
+.imagem{
+    width: 750px;
+}
+aside{
+    height: 695px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid rgba(51, 50, 62, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 62, 0.15);
+}
+.left{
+    margin-left: 125px;
+}
+.right{
+    margin-right: 125px;
+}
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    padding: 150px 0 75px 0;
+}
+span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 101px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 188px;
+    height: 68px;
+    font-size: 14px;
+}
